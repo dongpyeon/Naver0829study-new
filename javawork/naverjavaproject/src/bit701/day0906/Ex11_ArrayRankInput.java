@@ -2,7 +2,7 @@ package bit701.day0906;
 
 import java.util.Scanner;
 
-public class Ex10_ArrayRankInput {
+public class Ex11_ArrayRankInput {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -45,6 +45,7 @@ public class Ex10_ArrayRankInput {
 			 if(score[i]<0 || score[i]>100) {
 				 System.out.println("\t다시 입력바람");
 				 i--;
+			
 				 continue;
 			 }
 			 System.out.println();
